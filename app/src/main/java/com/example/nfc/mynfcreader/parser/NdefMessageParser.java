@@ -16,17 +16,17 @@
  */
 package com.example.nfc.mynfcreader.parser;
 
-import android.app.Activity;
+// import android.app.Activity;
 import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 
 // import com.example.nfc.mynfcreader.R;
-import com.example.nfc.mynfcreader.model.History;
+// import com.example.nfc.mynfcreader.model.History;
 import com.example.nfc.mynfcreader.record.ParsedNdefRecord;
 import com.example.nfc.mynfcreader.record.SmartPoster;
 import com.example.nfc.mynfcreader.record.TextRecord;
 import com.example.nfc.mynfcreader.record.UriRecord;
-import com.example.nfc.mynfcreader.utils.NFCReaderApp;
+// import com.example.nfc.mynfcreader.utils.NFCReaderApp;
 
 import java.util.ArrayList;
 import java.util.List;

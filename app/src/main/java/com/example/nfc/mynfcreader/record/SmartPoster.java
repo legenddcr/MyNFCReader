@@ -26,9 +26,9 @@ import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Iterables;
 // import com.example.nfc.mynfcreader.R;
-import com.example.nfc.mynfcreader.model.History;
+// import com.example.nfc.mynfcreader.model.History;
 import com.example.nfc.mynfcreader.parser.NdefMessageParser;
-import com.example.nfc.mynfcreader.utils.Utils;
+// import com.example.nfc.mynfcreader.utils.Utils;
 
 import java.util.Arrays;
 import java.util.NoSuchElementException;
