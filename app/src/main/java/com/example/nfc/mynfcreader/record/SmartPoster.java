@@ -110,7 +110,7 @@ public class SmartPoster implements ParsedNdefRecord {
 
     public static SmartPoster parse(NdefRecord[] recordsRaw) {
         try {
-            Iterable<ParsedNdefRecord> records = NdefMessageParser.getRecords(recordsRaw);
+            Iterable<ParsedNdefRecord> records = NdefMessageParser.INSTANCE.getRecords(recordsRaw);
             UriRecord uri = Iterables.getOnlyElement(Iterables.filter(records, UriRecord.class));
             TextRecord title = getFirstIfExists(records, TextRecord.class);
             RecommendedAction action = parseRecommendedAction(recordsRaw);

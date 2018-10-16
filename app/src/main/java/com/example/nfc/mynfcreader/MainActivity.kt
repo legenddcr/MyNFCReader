@@ -38,6 +38,11 @@ class MainActivity : Activity() {
                         .addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), 0)
     }
 
+    /**
+     * Tag data is converted to string to display
+     *
+     * @return the data dumped from this tag in String format
+     */
     private fun dumpTagData(tag: Tag): String {
         val sb = StringBuilder()
         val id = tag.getId()
